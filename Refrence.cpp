@@ -1,3 +1,9 @@
+// Refrence is a alias of variable.
+// it must be initilaised when declared.
+// it dosen't take any memory.
+// it cannot be modified to refer to other variable.
+// syntax:- int &y = x;
+
 #include <iostream>
 
 int main(){
