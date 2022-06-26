@@ -13,3 +13,13 @@ int main(){
     }while(x > 0);
     return 0;
 }
+
+
+/*
+# Important Points:
+
+
+Use for loop when a number of iterations are known beforehand, i.e. the number of times the loop body is needed to be executed is known.
+Use while loops, where an exact number of iterations is not known but the loop termination condition, is known.
+Use do while loop if the code needs to be executed at least once like in Menu-driven programs
+*/
