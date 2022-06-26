@@ -16,3 +16,20 @@ int main()
     
     return 0;
 }
+
+/* 
+# DATATYPE MODIFIERS:- 
+datatype modifiers are used with the built-in data types to modify the length of data that a particular data type can hold. 
+
+
+
+
+
+Data type modifiers available in C++ are: 
+
+
+Signed
+Unsigned - only take the positive value.
+Short
+Long
+*/
