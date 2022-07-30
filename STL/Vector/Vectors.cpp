@@ -14,29 +14,15 @@ void printVector(vector<int> &v){  // here we are taking the array as it is not 
 
 int main(){
     // Vectors are similar to array. but in vectors we have dynamic size.
-    vector<int>v;   // it will create a array of int type with name v;
+    vector<int>v;   // it will create a array of int type.
 
     // we can aslo declare a vector of a size and with some value but that also will be dynamic in nature.
     // vector<int>z(10,3);  // 10 = size  3 = value
 
 
-    v.push_back(1);   // it will push an element at the back of the array means this value will be inserted in our vector.
+    v.push_back(1);   // it will push an element at the back of the array.
     v.push_back(2);   // complexity O(1)
     v.push_back(3);
-    
-    // Taking input using for loop
-    /*
-    for(int i = 0; i < 4; i++){
-    cout<<"Enter an element to add to this vector: "<<endl;
-    cin>>element;
-    v.push_back(element);
-    */
-    
-    /*
-    Vector iterator concept 
-    vector<int> :: iterator name = v.begin();  // this iterator will point on the beginning of the vector.
-    */
-    
     v.push_back(4);
     cout<<"Vector elements"<<endl;
     printVector(v);
