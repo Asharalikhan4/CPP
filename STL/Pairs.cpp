@@ -3,6 +3,8 @@ using namespace std;
 
 // Every thing in STL can be nested. Ex-
 // pair<int, pair<int, int>> p = {1,{3,4}};
+// To access
+// cout<<p.second.second<<" "<<p.first.second<<endl;
 
 int main(){
     // Pairs is a class in c++ which is used to store two values.
