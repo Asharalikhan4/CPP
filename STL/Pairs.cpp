@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Every thing in STL can be nested. Ex-
+// pair<int, pair<int, int>> p = {1,{3,4}};
+
 int main(){
     // Pairs is a class in c++ which is used to store two values.
     pair<int,string>p;
