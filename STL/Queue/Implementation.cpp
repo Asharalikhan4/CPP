@@ -12,3 +12,15 @@ int main(){
     }
     return 0;
 }
+
+/*
+Some function of queue.
+q.empty()	Returns whether the queue is empty. It return true if the queue is empty otherwise returns false.
+q.size()	Returns the size of the queue.
+q.swap()	Exchange the contents of two queues but the queues must be of the same data type, although sizes may differ.
+q.emplace()	Insert a new element into the queue container, the new element is added to the end of the queue.
+q.front()	Returns a reference to the first element of the queue.
+q.back()	Returns a reference to the last element of the queue.
+q.push(g) 	Adds the element ‘g’ at the end of the queue.
+q.pop() 	Deletes the first element of the queue.
+*/
