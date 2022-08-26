@@ -27,3 +27,6 @@ int main(){
     }
     return 0;
 }
+
+
+// x.emplace_back is faster then x.push_back while entering the element at the last.
